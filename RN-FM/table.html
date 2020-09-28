@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Table</title>
+    <style>
+        table {
+           
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 3px dashed rgb(182, 241, 105);
+            padding: 5px;           
+            text-align: center;
+          
+      
+        }
+        /* children of ul using the > symbol */
+        ul > li {
+            color: blueviolet;
+        }
+
+        /* attributes styling */
+       
+       a[href="https://facebook.com"] {
+           color: red;
+       }
+
+       /* media queries for responsive design */
+       @media (min-width: 600px) {
+           td, th {
+                color: rgb(14, 129, 76);
+           }
+       }
+       @media (max-width: 599px) {
+           td, th {
+               color: blue
+           }
+       }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Ocean</th>  
+                <th>Average Depth</th>  
+                <th>Maximum Depth</th>  
+                <th></th>  
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pacific Ocean</td>
+                <td>150</td>
+                <td>300</td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr>
+                <td>Atlantic Ocean</td>
+                <td>200</td>
+                <td>450</td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr>
+                <td>India Ocean</td>
+                <td>200m</td>
+                <td>450m</td>
+            </tr>
+        </tbody>
+    </table>
+    <ol>
+        <li>list item one</li>
+        <li>list item two</li>
+        <ul>
+            <li>list item 2.1</li>
+            <li>list item 2.2</li>
+        </ul>
+        <li>list item 3</li>
+    </ol>
+    <ul>
+        <li><a href="https://google.com">Google</a></li>
+        <li><a href="https://facebook.com">Facebook</a></li>
+        <li><a href="https://office.com">Microsoft office</a></li>
+    </ul>
+</body>
+</html>
